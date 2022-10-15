@@ -1,9 +1,2 @@
 # Database-Management-System
 
-
-
-
-
-
-
-
