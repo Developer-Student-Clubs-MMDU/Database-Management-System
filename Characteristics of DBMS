@@ -1,0 +1,34 @@
+# <p align="center">Characteristics of DBMS (Database Management System)</p>
+
+#Real World Entity:
+  One of the most important and easy-to-understand characteristics of DBMS is that it is realistic. 
+The DBMS has been designed in such a way that it can cater to the needs of huge business organizations and can store large data with efficient operations on them.
+
+#Self Explaining Nature:
+  A DBMS contains one database and along with that it also contains metadata about that one database.Metadata is the data about data.
+  
+#Atomicity of Operations (Transactions):
+  Atomicity means that either the operation should not be performed or it should be performed in its entirety i.e. it must be either 0% or 100% completed.
+DBMS provides us with atomic operations.
+
+#Concurrent Access without Anomalies:
+  Multiple users can access the database at the same time without any anomalies
+  
+#Stores Any Kind of Structured Data:
+  A database can store any kind of structured data.
+In most of the books or websites, you will see examples of students or employees as these are easy to explain but the very important fact is that the DBMS is not limited to storing only these kinds of information.
+
+#Integrity:
+  Integrity means that the data which comes into the Database should be correct as well as consistent.In DBMS, the data that is entered into the database is both correct as well as consistent. Apart from that, integrating changes is very easy in a database.
+  
+#Ease of Access (The DBMS Queries):
+  Before DBMS, the conventional file system (i.e. files and folders) was used to store complex and large data.Searching for a Name in thousands of Students was a very difficult task. This is because manual searching is done in a conventional file system for a particular data. However, DBMS provides ease of access to the data inside the database. We can run a search query to find any data and the process is way faster than manual searching and is more reliable. The CRUD (Create, Read, Update & Delete) operations are very easy to perform with a database because of the DBMS queries.
+  
+#ACID Properties:
+  ACID stands for Atomicity, Consistency, Isolation, and Durability.
+We have already talked about atomicity and consistency. Atomicity means the transaction should either be 0% or 100% completed and consistency means that the change in data should be reflected everywhere in a database.
+Isolation means that multiple transactions can occur independently without the interference of some other transactions.
+Durability means that the chances of a successful atomic transaction i.e. a transaction that has been 100% completed should reflect in the database.
+
+#Security:
+  The database should be accessible to the users in a limited way. The access to make changes to a database by the user should be limited and the users must not be given complete access to the entire database. Unauthorized users should not be allowed to access the database. Authentication: The DBMS has authentication for various users that directly refers to the limit to which the user can access the Database. Authentication means the process of laughing in of the user only with the rights that he/she has been authorized to. For instance, in any organization, admin has the access to make changes to the database of the organization as some new employee might have joined the organization or someone might have left it. However, the employees have access only to their personal profile and can make changes to it only. They cannot access the database of any other employee or the organization as a whole.
