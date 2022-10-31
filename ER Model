@@ -1,0 +1,44 @@
+# <p align="center">ER Model</p>
+
+
+ER model stands for an Entity-Relationship model. It is a high-level data model. This model is used to define the data elements and relationship for a specified system.
+It develops a conceptual design for the database. It also develops a very simple and easy to design view of data.
+In ER modeling, the database structure is portrayed as a diagram called an entity-relationship diagram.
+
+
+
+![Screenshot (366)](https://user-images.githubusercontent.com/76655825/199073181-62956982-dfc2-44b2-8b76-871377ec29dc.png)
+
+#Entity:
+  An entity may be any object, class, person or place. In the ER diagram, an entity can be represented as rectangles. Consider an organization as an example- manager, product, employee, department etc. can be taken as an entity.
+  
+#Attribute:
+  The attribute is used to describe the property of an entity. Eclipse is used to represent an attribute.
+ 
+a. Key Attribute:
+  The key attribute is used to represent the main characteristics of an entity. It represents a primary key. The key attribute is represented by an ellipse with the text underlined.
+  
+b. Composite Attribute:
+  An attribute that composed of many other attributes is known as a composite attribute. The composite attribute is represented by an ellipse, and those ellipses are connected with an ellipse.
+
+c. Multivalued Attribute:
+  An attribute can have more than one value. These attributes are known as a multivalued attribute. The double oval is used to represent multivalued attribute.
+  
+d. Derived Attribute:
+  An attribute that can be derived from other attribute is known as a derived attribute. It can be represented by a dashed ellipse.
+  
+# Relationship:
+  A relationship is used to describe the relation between entities. Diamond or rhombus is used to represent the relationship.
+  
+a. One-to-One Relationship:
+  When only one instance of an entity is associated with the relationship, then it is known as one to one relationship.
+  
+b. One-to-many relationship:
+  When only one instance of the entity on the left, and more than one instance of an entity on the right associates with the relationship then this is known as a one-to-many relationship.
+  
+c. Many-to-one relationship:
+  When more than one instance of the entity on the left, and only one instance of an entity on the right associates with the relationship then it is known as a many-to-one relationship.
+  
+d. Many-to-many relationship:
+  When more than one instance of the entity on the left, and more than one instance of an entity on the right associates with the relationship then it is known as a many-to-many relationship.
+  
